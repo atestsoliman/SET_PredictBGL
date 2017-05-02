@@ -4,10 +4,10 @@ Single-Page Application for using PredictBGL
     - Log-In to you PredictBGL account using https (IP)
     - Log a BGL measurement (IP)
     - View the last Months Logs (IP)
-##Instalation
+## Instalation
 ```
 TBD
 ```
 
-##Using the Application
+## Using the Application
 TBD
