@@ -1,0 +1,20 @@
+{
+  "name": "set_predictbgl",
+  "version": "1.0.0",
+  "description": "Single Page Application for using PredictBGL",
+  "main": "set_bgl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atestsoliman/SET_PredictBGL.git"
+  },
+  "author": "Ali Soliman",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/atestsoliman/SET_PredictBGL/issues"
+  },
+  "homepage": "https://github.com/atestsoliman/SET_PredictBGL#readme"
+}
