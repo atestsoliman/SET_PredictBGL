@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/atestsoliman/SET_PredictBGL/issues"
   },
-  "homepage": "https://github.com/atestsoliman/SET_PredictBGL#readme"
+  "homepage": "https://github.com/atestsoliman/SET_PredictBGL#readme",
+  "dependencies": {
+    "page": "^1.7.1"
+  }
 }
