@@ -3,26 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>SET BGL</title>
+    <link rel="stylesheet" href=style.css>
   </head>
   <body>
     <nav class="navBar">
-        <div class="Banner"><h1>SET BGL</h1></div>
-        <div class="Log Button">LOG</div>
-        <div class="Graph Button">GRAPH</div>
+        <div class="Banner">SET BGL</h1></div>
+        <div class="clearfix">
+            <div class="log button">LOG</div>
+            <div class="graph button">GRAPH</div>
+        </div>
     </nav>
     <section>
-        <form>
-            <fieldset>
-                <legend>Log In</legend>
-                <label for="email">
-                    email: <input type="email" name="email" placeholder="someone@example.com">
-                </label>
-                <label for="password">
-                    password: <input type="password" name="password" placeholder="************">
-                </label>
-            </fieldset>
-        </form>
-        <button type="submit">Log In</button>
+        <label for="email">
+            email: <input type="email" name="email" placeholder="someone@example.com">
+        </label>
+        <label for="password">
+            password: <input type="password" name="password" placeholder="************">
+        </label>
+        <div class="clearfix">
+            <div class="submit button">Log In</div>
+        </div>
     </section>
 
   </body>

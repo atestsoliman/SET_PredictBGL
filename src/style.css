@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+.navBar {
+    width: 100%;
+    background-color: #101556;
+    color: #ffffff;    
+    text-align: center;
+}
+.button {
+    width: 50%;
+    float: left;
+    border: solid black 1px;
+}
+.button:hover {
+    background-color: #070a21;
+    color: white;
+}
+.clearfix::after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+label {
+    display: block;
+}
