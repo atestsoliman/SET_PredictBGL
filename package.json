@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/atestsoliman/SET_PredictBGL#readme",
   "dependencies": {
-    "page": "^1.7.1"
+    "connect": "^3.6.1",
+    "page": "^1.7.1",
+    "serve-static": "^1.12.2"
   }
 }
