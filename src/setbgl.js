@@ -1,5 +1,27 @@
+//IIFE start the client side router
+(function () {
+    page('/log', function(ctx, next) {
+        ctx.handled = true;
+        navToLog();
+        next();
+    });
+    page('/graph', function(ctx, next) {
+        ctx.handled = true;
+        navToGraph();
+        next();
+    });
 
+    function navToLog() {
+        $(".content").addClass("hide");
+        $("<p>LOG PAGE PLACE HOLDER</p>").insertAfter(".navBar");
+    }
+    function navToGraph() {
+        $(".content").addClass("hide");
+        $("<p>GRAPH PAGE PLACE HOLDER</p>").insertAfter(".navBar");
+    }
 
+    page.start();
+})();
 $(document).ready(function() {
     //add listener to submit button
     $(".submit").click(function(){

@@ -26,3 +26,6 @@
 label {
     display: block;
 }
+.hide{
+    display: none;
+}
