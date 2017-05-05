@@ -6,7 +6,6 @@
     <link rel="stylesheet" href=style.css>
     <script src="jQuery.js"></script>
     <script src="node_modules/page/page.js"></script>
-    <script src="setbgl.js"></script>
   </head>
   <body>
     <nav class="navBar">
@@ -17,16 +16,33 @@
         </div>
     </nav>
     <section class="content">
+    </section>
+    
+    <!--templates for the three views-->
+    <script id="logIn-template" type="text/x-template">
         <label for="email">
             email: <input class="email" type="email" name="email" placeholder="someone@example.com">
         </label>
         <label for="password">
             password: <input class="password" type="password" name="password" placeholder="************">
         </label>
-        <div class="clearfix">
+        <div>
             <div class="submit button">Log In</div>
         </div>
-    </section>
+    </script>
 
+    <script id="landing-template" type="text/x-template">
+        <p>Welcome to SET BGL!</p>
+    </script>
+    
+    <script id="log-template" type="text/x-template">
+        <p>This is the log</p>
+    </script>
+
+    <script id="graph-template" type="text/x-template">
+        <p>This is the graph</p>
+    </script>
+
+   <script src="setbgl.js"></script>
   </body>
 </html>
