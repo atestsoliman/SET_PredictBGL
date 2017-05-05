@@ -35,6 +35,8 @@
         return $("#" + name + '-template').html();
     }
 
+    //perfrom ajax call to get login token.
+    //if successful navigates to next view as defined in route
     function addLogInListener(next) {
     //add listener to submit button
         $(".submit").click(function(){
